@@ -1,6 +1,5 @@
 from strutils import Digits, parseInt
-import sequtils, sugar
-import strformat
+import sugar, strformat
 
 proc task01(numbers: seq[int]): int =
   for i in numbers:

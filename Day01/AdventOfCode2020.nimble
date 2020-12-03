@@ -7,7 +7,6 @@ license       = "Apache-2.0"
 srcDir        = "src"
 bin           = @["AdventOfCode2020"]
 
-
 # Dependencies
 
-requires "nim >= 1.4.2"
+requires "nim >= 1.2.8"
