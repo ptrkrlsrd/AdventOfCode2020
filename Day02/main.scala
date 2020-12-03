@@ -23,6 +23,8 @@ object CheckPasswords {
 
     var followsRule1 = 0
     var followsRule2 = 0
+
+    // TODO: Find a better way to solve this
     for(line <- passwordLines) {
         val charCount = line.password.count(_ == line.checkChar)
 
@@ -30,18 +32,15 @@ object CheckPasswords {
           followsRule1 += 1
         }
 
-        var a = line.low
-        var b = line.high
-
-        val lowEqualsChar = line.password.charAt(a-1) == line.checkChar
-        val highEqualsChar = line.password.charAt(b-1) == line.checkChar
+        val lowEqualsChar = line.password.charAt(line.low-1) == line.checkChar
+        val highEqualsChar = line.password.charAt(line.high-1) == line.checkChar
 
         if (lowEqualsChar ^ highEqualsChar) {
           followsRule2 += 1
         }
     }
 
-    println(followsRule2)
+    println(followsRule1, followsRule2)
   }
 }
 
