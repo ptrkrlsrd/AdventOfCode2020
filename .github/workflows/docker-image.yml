@@ -15,6 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build Day01
-    - run: docker build . --tag aoc-day01:$(date +%s)
-    - working-directory: ./Day01
+      working-directory: ./Day01
+      run: docker build . --tag aoc-day01:$(date +%s)
         
