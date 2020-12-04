@@ -3,6 +3,10 @@
 Languages in order of appearance:
 - [Nim](https://nim-lang.org/), [Scala](https://www.scala-lang.org/), [F#](https://fsharp.org/), [Python](https://fsharp.org/)
 
+Languages I want to solve the upcoming tasks with:
+- Definitely: C++, C, Rust, Haskell, Elixir/Erlang
+- Maybe: Cobol
+
 ## Day 01 - https://nim-lang.org/
 * Did I like it? Yeah, kind of. At times it felt like a fast Python with even more syntax sugar than the newest versions of Python(and that says a lot!). On top of it all I love that it's compiled(or transpiled?).
 ## Day 02 - https://www.scala-lang.org/
