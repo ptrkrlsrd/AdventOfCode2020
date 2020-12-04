@@ -17,3 +17,11 @@ Languages I want to solve the upcoming tasks with:
 ## Day 04 - https://www.python.org/
 * First approach: I began with using regex to validate the passports, but didn't like how it turned out. Then I found `scheme` and felt it was a great solution.
 * Did I like it? Using Python3.9 for this task really made me miss my old Python days. Writing the code was a breeze! I hadn't used the `scheme`library before but it's way nicer than using dang if-tests to validate code.
+* TIL: 
+https://stackoverflow.com/questions/4764547/creating-dictionary-from-space-separated-key-value-string-in-python
+
+```python
+import shelex
+print(dict(token.split('=') for token in shlex.split(s)))
+```
+
