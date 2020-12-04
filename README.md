@@ -7,5 +7,5 @@
 ## Day 03 - https://fsharp.org/
 * Did I like it? I liked it quite a lot. If I had the opportunity to use it instead of C# at work, I'd easily do it.
 ## Day 04 - https://www.python.org/
-* My first approach was to use regex to validate the passports. 
+* First approach: I began with using regex to validate the passports, but didn't like how it turned out. Then I found `scheme` and felt it was a great solution.
 * Did I like it? Using Python3.9 for this task really made me miss my old Python days. Writing the code was a breeze! I hadn't used the `scheme`library before but it's way nicer than using dang if-tests to validate code.
