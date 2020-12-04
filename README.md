@@ -5,7 +5,7 @@ Languages in order of appearance:
 
 Languages I want to solve the upcoming tasks with:
 - Definitely: C++, C, Rust, Haskell, Elixir/Erlang
-- Maybe: Cobol
+- Maybe: Cobol, Bash, Powershell(*jikes, what a way to make 2020 worse!*)
 
 ## Day 01 - https://nim-lang.org/
 * Did I like it? Yeah, kind of. At times it felt like a fast Python with even more syntax sugar than the newest versions of Python(and that says a lot!). On top of it all I love that it's compiled(or transpiled?).
