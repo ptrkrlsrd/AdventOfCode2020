@@ -6,6 +6,7 @@ Languages in order of appearance:
 Languages I want to solve the upcoming tasks with:
 - Definitely: C++, C, Rust, Elixir/Erlang, C#
 - Maybe: Cobol, Bash, Powershell(*jikes, what a way to make 2020 worse!*), Java, Prolog
+- Definitely not: I write so much Go already, so using it would feel like cheating. The same applies to C#, but I'll still use it and no one can stop me.
 
 ## Day 01 - https://nim-lang.org/
 * Have I used it before? No
