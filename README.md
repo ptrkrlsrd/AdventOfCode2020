@@ -4,7 +4,7 @@ Languages in order of appearance:
 - [Nim](https://nim-lang.org/), [Scala](https://www.scala-lang.org/), [F#](https://fsharp.org/), [Python](https://fsharp.org/)
 
 Languages I want to solve the upcoming tasks with:
-- Definitely: C++, C, Rust, Haskell, Elixir/Erlang, C#
+- Definitely: C++, C, Rust, Elixir/Erlang, C#
 - Maybe: Cobol, Bash, Powershell(*jikes, what a way to make 2020 worse!*), Java, Prolog
 
 ## Day 01 - https://nim-lang.org/
@@ -24,9 +24,11 @@ Languages I want to solve the upcoming tasks with:
 * Did I like it? Using Python3.9 for this task really made me miss my old Python days. Writing the code was a breeze! I hadn't used the `scheme`library before but it's way nicer than using dang if-tests to validate code.
 * TIL: 
 https://stackoverflow.com/questions/4764547/creating-dictionary-from-space-separated-key-value-string-in-python
-
 ```python
 import shelex
 print(dict(token.split('=') for token in shlex.split(s)))
 ```
 
+## Day 05 - 
+## Day 06 - https://www.haskell.org/
+* Have I used it before? Yes, a little bit.
