@@ -4,7 +4,7 @@ Languages in order of appearance:
 - [Nim](https://nim-lang.org/), [Scala](https://www.scala-lang.org/), [F#](https://fsharp.org/), [Python](https://fsharp.org/)
 
 Languages I want to solve the upcoming tasks with:
-- Definitely: C++, C, Rust, Elixir/Erlang, C#
+- Definitely: C++, C, Rust, Elixir/Erlang, C#, Haskell
 - Maybe: Cobol, Bash, Powershell(*jikes, what a way to make 2020 worse!*), Java, Prolog
 
 ## Day 01 - https://nim-lang.org/
@@ -29,7 +29,6 @@ import shelex
 print(dict(token.split('=') for token in shlex.split(s)))
 ```
 
-## Day 05 - 
 ## Day 06 - https://www.haskell.org/
 * Have I used it before? Yes, a little bit.
 * This task was a perfect match for Haskell in my opinion. I'm not all that happy about the part of the solution where I replace multiple newlines with a comma to then split the string by commas, but it worked.
