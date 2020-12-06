@@ -22,11 +22,26 @@ jobs:
       env: 
         SHA: ${{ steps.short-sha.outputs.sha }}
       
-    - name: Build all
-      env:
-        DAYS: Day01 Day02
-      run: for f in $DAYS; do docker build . --tag "aoc-$f:${{ env.SHA }}"; done
+    - name: Build Day01
+      working-directory: ./${{ env.DAY }}
+      run: docker build . --tag aoc-${{ env.DAY }}:${{ env.SHA }}
+      env: 
+        DAY: "DAY01"
+    
+    - name: Build Day02
+      working-directory: ./${{ env.DAY }}
+      run: docker build . --tag aoc-${{ env.DAY }}:${{ env.SHA }}
+      env: 
+        DAY: "DAY02"
+      
+    - name: Build Day03
+      working-directory: ./${{ env.DAY }}
+      run: docker build . --tag aoc-${{ env.DAY }}:${{ env.SHA }}
+      env: 
+        DAY: "DAY03"
           
     - name: Build Day04
-      working-directory: ./Day04
-      run: docker build . --tag aoc-day04:$(date +%s)
+      working-directory: ./${{ env.DAY }}
+      run: docker build . --tag aoc-${{ env.DAY }}:${{ env.SHA }}
+      env: 
+        DAY: "DAY04"
