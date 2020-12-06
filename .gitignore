@@ -6,3 +6,9 @@
 .vscode
 target/
 env/
+
+.fake
+.ionide
+bin/
+.stack-work
+obj/
