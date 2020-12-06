@@ -11,19 +11,16 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    
     steps:
     - uses: actions/checkout@v2
-    - name: Build Day01
-      working-directory: ./Day01
-      run: docker build . --tag aoc-day01:$(date +%s)
-
-    - uses: actions/checkout@v2
-    - name: Build Day02
-      working-directory: ./Day02
-      run: docker build . --tag aoc-day02:$(date +%s)
+      
+    - name: Build all
+      env:
+        DAYS: Day01 Day02
+        SHORT_SHA: $(${GITHUB_SHA} | cut -c1-8))
+      run: for f in $DAYS; do docker build . --tag aoc-${F,,}:$SHORT_SHA; done
           
-    - uses: actions/checkout@v2
     - name: Build Day04
       working-directory: ./Day04
       run: docker build . --tag aoc-day04:$(date +%s)
