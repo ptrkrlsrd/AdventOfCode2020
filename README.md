@@ -4,7 +4,7 @@ Languages in order of appearance:
 - [Nim](https://nim-lang.org/), [Scala](https://www.scala-lang.org/), [F#](https://fsharp.org/), [Python](https://fsharp.org/), [Haskell](https://haskell.org)
 
 Languages I want to solve the upcoming tasks with:
-- Definitely: C++, C, Rust, Elixir/Erlang, C#
+- Definitely: C++, C, Rust, Elixir/Erlang, C#, Swift, Kotlin, Dart
 - Maybe: Cobol, Bash, Powershell(*jikes, what a way to make 2020 worse!*), Java, Prolog
 - Definitely not: I write so much Go already, so using it would feel like cheating. The same applies to C#, but I'll still use it and no one can stop me.
 
