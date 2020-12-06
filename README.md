@@ -1,10 +1,10 @@
 # AdventOfCode2020
 
 Languages in order of appearance:
-- [Nim](https://nim-lang.org/), [Scala](https://www.scala-lang.org/), [F#](https://fsharp.org/), [Python](https://fsharp.org/)
+- [Nim](https://nim-lang.org/), [Scala](https://www.scala-lang.org/), [F#](https://fsharp.org/), [Python](https://fsharp.org/), [Haskell](https://haskell.org)
 
 Languages I want to solve the upcoming tasks with:
-- Definitely: C++, C, Rust, Elixir/Erlang, C#, Haskell
+- Definitely: C++, C, Rust, Elixir/Erlang, C#
 - Maybe: Cobol, Bash, Powershell(*jikes, what a way to make 2020 worse!*), Java, Prolog
 
 ## Day 01 - https://nim-lang.org/
