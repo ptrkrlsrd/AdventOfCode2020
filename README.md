@@ -17,7 +17,7 @@ Languages I want to solve the upcoming tasks with:
 ## Day 03 - https://fsharp.org/
 * Have I used it before? Yes, but only tested it
 * Did I like it? I liked it quite a lot. If I had the opportunity to use it instead of C# at work, I'd easily do it.
-* Day 3 was really difficult
+* Day 3 was really difficult, and therefore I haven't published the code yet.
 ## Day 04 - https://www.python.org/
 * Have I used it before? Yes, quite a lot
 * First approach: I began with using regex to validate the passports, but didn't like how it turned out. Then I found `scheme` and felt it was a great solution.
