@@ -32,3 +32,5 @@ print(dict(token.split('=') for token in shlex.split(s)))
 ## Day 05 - 
 ## Day 06 - https://www.haskell.org/
 * Have I used it before? Yes, a little bit.
+* This task was a perfect match for Haskell in my opinion. I'm not all that happy about the part of the solution where I replace multiple newlines with a comma to then split the string by commas, but it worked.
+* Did I like it? I love working with Haskell as it puts problem solving in focus, and because there are so many great libraries out there.
