@@ -9,9 +9,6 @@ import Data.Set (toList, fromList)
 
 uniquify lst = toList $ fromList lst
 
-removeEmpty :: [[Char]] -> [[Char]]
-removeEmpty a = filter (\n -> n /= "") a
-
 splitByComma :: String -> [String]
 splitByComma [] = [""]
 splitByComma (c:cs) | c == ','  = "" : rest
