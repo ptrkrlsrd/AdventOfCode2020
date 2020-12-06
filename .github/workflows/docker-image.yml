@@ -27,25 +27,25 @@ jobs:
       run: docker build . --tag ${{ env.REPO }}:${{ env.SHA }}
       env:
         DAY: "Day01"
-        REPO: "$(echo $DAY | awk '{print tolower($0))'"
+        REPO: "day01"
     
     - name: Build Day02
       working-directory: ./${{ env.DAY }}
       run: docker build . --tag ${{ env.REPO }}:${{ env.SHA }}
       env: 
         DAY: "Day02"
-        REPO: "$(echo $DAY | awk '{print tolower($0))'"
+        REPO: "day02"
       
     - name: Build Day03
       working-directory: ./${{ env.DAY }}
       run: docker build . --tag ${{ env.REPO }}:${{ env.SHA }}
       env: 
         DAY: "Day03"
-        REPO: "$(echo $DAY | awk '{print tolower($0))'"
+        REPO: "day03"
           
     - name: Build Day04
       working-directory: ./${{ env.DAY }}
       run: docker build . --tag ${{ env.REPO }}:${{ env.SHA }}
       env: 
         DAY: "Day04"
-        REPO: "$(echo $DAY | awk '{print tolower($0))'"
+        REPO: "day04"
