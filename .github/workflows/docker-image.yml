@@ -26,22 +26,22 @@ jobs:
       working-directory: ./${{ env.DAY }}
       run: docker build . --tag aoc-${{ env.DAY }}:${{ env.SHA }}
       env: 
-        DAY: "DAY01"
+        DAY: "Day01"
     
     - name: Build Day02
       working-directory: ./${{ env.DAY }}
       run: docker build . --tag aoc-${{ env.DAY }}:${{ env.SHA }}
       env: 
-        DAY: "DAY02"
+        DAY: "Day02"
       
     - name: Build Day03
       working-directory: ./${{ env.DAY }}
       run: docker build . --tag aoc-${{ env.DAY }}:${{ env.SHA }}
       env: 
-        DAY: "DAY03"
+        DAY: "Day03"
           
     - name: Build Day04
       working-directory: ./${{ env.DAY }}
       run: docker build . --tag aoc-${{ env.DAY }}:${{ env.SHA }}
       env: 
-        DAY: "DAY04"
+        DAY: "Day04"
