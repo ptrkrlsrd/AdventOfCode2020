@@ -3,28 +3,27 @@ open System.IO
 
 type ExitCode = OK = 0 | Error = 1
 
-let keepTrees (idx: Char) =
-    idx.Equals('#')
+type Slope(x, y) = 
+    member this.X = x
+    member this.Y = y
 
 [<EntryPoint>]
 let main argv =
-    let increaseBy = 4
-    let mutable count = 0 // TODO: Find a way to avoid mutable
-    let mutable column = 0
+    let mutable count = 0 
+    let mutable right = 0 // TODO: Find a way to avoid mutable and make the code more functional
+    let mutable down = 0
 
-    let lines = File.ReadLines("data/input.txt")
+    let slope = Slope(3, 1)
+    let lines = File.ReadLines "data/input.txt" |> Seq.toArray
 
-    let a = 
-        lines |> Seq.skip(1)
-        |> Seq.map (fun line ->
-            column <- column + increaseBy
-            line.[column..line.Length]
-        )
-        |> Seq.concat
-        |> Seq.filter keepTrees
-        |> String.Concat
-        |> Seq.length
+    while down < Seq.length lines do
+        let line = lines.[down]
+        let lineLength = String.length(line)
+        if line.[right % lineLength].Equals('#') then
+            count <- count + 1
 
-    Console.WriteLine(a)
+        right <- right + slope.X
+        down <- down + slope.Y
 
+    Console.WriteLine(count)
     int ExitCode.OK
