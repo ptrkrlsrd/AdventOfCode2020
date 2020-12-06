@@ -14,12 +14,18 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
+    - uses: benjlevesque/short-sha@v1.2
+      id: short-sha
+      with:
+        length: 6
+    - run: echo $SHA
+      env: 
+        SHA: ${{ steps.short-sha.outputs.sha }}
       
     - name: Build all
       env:
         DAYS: Day01 Day02
-        SHORT_SHA: $($GITHUB_SHA | cut -c1-8)
-      run: for f in $DAYS; do docker build . --tag aoc-$F:$SHORT_SHA; done
+      run: for f in $DAYS; do docker build . --tag aoc-$F:$SHA; done
           
     - name: Build Day04
       working-directory: ./Day04
