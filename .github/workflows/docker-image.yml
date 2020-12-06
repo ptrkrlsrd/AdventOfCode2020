@@ -18,8 +18,8 @@ jobs:
     - name: Build all
       env:
         DAYS: Day01 Day02
-        SHORT_SHA: $(${GITHUB_SHA} | cut -c1-8))
-      run: for f in $DAYS; do docker build . --tag aoc-${F,,}:$SHORT_SHA; done
+        SHORT_SHA: $($GITHUB_SHA | cut -c1-8)
+      run: for f in $DAYS; do docker build . --tag aoc-$F:$SHORT_SHA; done
           
     - name: Build Day04
       working-directory: ./Day04
