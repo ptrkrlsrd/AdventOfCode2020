@@ -1,4 +1,11 @@
 # AdventOfCode2020
+* Day 01 - Nim
+* Day 02 - Scala
+* Day 03 - F#
+* Day 04 - Python
+* Day 05 - (Haven't started yet)
+* Day 06 - Haskell
+
 ## Why force myself to use a different language every day?
 There are many reasons to this. One is that I'm really interested in programming languages and their differences. Another reason is that I strongly belive that developers should learn more than one language. Why? Well, because I think that one can learn a lot from testing diffrent languages and applying learnt knowledge to the language they use every day.
 
