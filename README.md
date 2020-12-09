@@ -9,9 +9,9 @@
 * Day 08 - C
 
 ## Why force myself to use a different language every day?
-There are many reasons to this. One is that I'm really interested in programming languages and their differences. Another reason is that I strongly belive that developers should learn more than one language. Why? Well, because I think that one can learn a lot from testing diffrent languages and applying learnt knowledge to the language they use every day.
+There are many reasons to this. One is that I'm really interested in programming languages and their differences. Another reason is that I strongly belive that developers should learn more than one language. Why? Well, because I think that one can learn a lot from testing different languages and applying that knowledge to the language they use every day.
 
-Another reason is that some languages are better than others at certain tasks. There are many Java/C# developers who think said languages are the best for any given task out there, but I don't belive that to be the case. One takeaway from this is that one should of course not go haywire and choose programming solely based on trend but rather based on key points such as what use cases the PL is generally good at, performance and ease of recruiting etc.
+Another reason is that some languages are better than others at certain tasks. There are many Java/C# developers who think said languages are the best for any given task out there, but I don't belive that to be the case. One takeaway from this is that one should of course not go haywire and choose programming solely based on trend, but rather based on key points such as what use cases the PL is generally good at, performance and ease of recruiting etc.
 
 I try my best to write idiomatic code, and will continue to rewrite and improve old solutions until the 24th is over.
 
