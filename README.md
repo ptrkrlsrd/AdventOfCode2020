@@ -1,10 +1,10 @@
 # AdventOfCode2020
-* Day 01 - Nim
-* Day 02 - Scala
-* Day 03 - F#
-* Day 04 - Python
+* Day 01 - [Nim](https://nim-lang.org/)
+* Day 02 - [Scala](https://www.scala-lang.org/)
+* Day 03 - [F#](https://fsharp.org/)
+* Day 04 - [Python](https://www.python.org/)
 * Day 05 - (Haven't started yet)
-* Day 06 - Haskell
+* Day 06 - [Haskell](https://haskell.org)
 * Day 07 - C++
 * Day 08 - C
 
@@ -14,9 +14,6 @@ There are many reasons to this. One is that I'm really interested in programming
 Another reason is that some languages are better than others at certain tasks. There are many Java/C# developers who think said languages are the best for any given task out there, but I don't belive that to be the case. One takeaway from this is that one should of course not go haywire and choose programming solely based on trend but rather based on key points such as what use cases the PL is generally good at, performance and ease of recruiting etc.
 
 I try my best to write idiomatic code, and will continue to rewrite and improve old solutions until the 24th is over.
-
-### Languages in order of appearance:
-- [Nim](https://nim-lang.org/), [Scala](https://www.scala-lang.org/), [F#](https://fsharp.org/), [Python](https://fsharp.org/), [Haskell](https://haskell.org)
 
 ### Languages I want to solve the upcoming tasks with:
 - Definitely: C++, C, Rust, Elixir/Erlang, C#, Swift, Kotlin, Dart
