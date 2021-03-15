@@ -18,7 +18,6 @@ I try my best to write idiomatic code, and will continue to rewrite and improve 
 ### Languages I want to solve the upcoming tasks with:
 - Definitely: C++, C, Rust, Elixir/Erlang, C#, Swift, Kotlin, Dart
 - Maybe: Cobol, Bash, Powershell(*jikes, what a way to make 2020 worse!*), Java, Prolog
-- Definitely not: I write so much Go already, so using it would feel like cheating. The same applies to C#, but I'll still use it and no one can stop me.
 
 ## Notes
 ### Day 01 - https://nim-lang.org/
